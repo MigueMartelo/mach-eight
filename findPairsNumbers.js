@@ -1,4 +1,8 @@
 function findPairsNumbers(numbers, target) {
+  if (!Array.isArray(numbers)) {
+    return 'Please enter an array';
+  }
+
   let result = [];
   let map = new Map();
 

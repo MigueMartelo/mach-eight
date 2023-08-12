@@ -38,4 +38,17 @@ describe('findPairsNumbers', () => {
     const result = findPairsNumbers(numbers, targetSum);
     expect(result).toEqual([]);
   });
+
+  it('show an error if the input is not an array', () => {
+    const numbers = 'not an array';
+    const targetSum = 5;
+    const result = findPairsNumbers(numbers, targetSum);
+    expect(result).toEqual('Please enter an array');
+  });
+
+  it('handle without targetSum', () => {
+    const numbers = [1, 9, 5, 0, 20, -4, 12, 16, 7];
+    const result = findPairsNumbers(numbers);
+    expect(result).toEqual([]);
+  });
 });
