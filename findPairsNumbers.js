@@ -1,4 +1,4 @@
-function findPairsNumber(numbers, target) {
+function findPairsNumbers(numbers, target) {
   let result = [];
   let map = new Map();
 
@@ -12,6 +12,4 @@ function findPairsNumber(numbers, target) {
   return result;
 }
 
-console.log(findPairsNumber([1, 9, 5, 0, 20, -4, 12, 16, 7], 12));
-
-module.exports = findPairsNumber;
+module.exports = findPairsNumbers;

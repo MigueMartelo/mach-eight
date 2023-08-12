@@ -8,7 +8,7 @@
 1. Open the terminal.
 2. Navigate to the project directory.
 3. Run the function using the Node.js interpreter with the following code:
-   `node findPairsNumbers.js`
+   `node index.js`
 4. You can see in the console the result.
 
 ### Running the tests
